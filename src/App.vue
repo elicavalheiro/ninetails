@@ -1,8 +1,34 @@
 <template>
-  <router-link to="/">Home</router-link>
   <router-view></router-view>
 </template>
 
-<style>
+<style lang="scss">
+* {
+  box-sizing: border-box;
+}
 
+a {
+	text-decoration: none;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul {
+	font-size: 1em;
+	font-weight: normal;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #505050;
+}
 </style>

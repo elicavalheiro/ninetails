@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@/views/Home'
+import PokeCadastro from '@/views/PokeCadastro';
 
 const routes = [
   {
@@ -7,6 +8,11 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path: '/cadastro',
+    name: 'PokeCadastro',
+    component: PokeCadastro
+  }
 ]
 
 const router = createRouter({
