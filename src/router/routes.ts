@@ -1,6 +1,6 @@
 import { ComponentType, ReactPropTypes } from "react";
-import { Home } from "../pages/Home";
-import { Login } from "../pages/Login";
+import { Home } from "../views/Home";
+import { Login } from "../views/auth/Login";
 
 export type RouteType = {
   path: string;

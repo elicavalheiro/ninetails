@@ -1,6 +1,6 @@
 import { createCss } from '@stitches/react';
 
-export const { styled, css, global, keyframes, getCssString, theme } = createCss({
+export const { styled, css, global: stitchesGlobal, keyframes, getCssString, theme } = createCss({
   theme: {
     fonts: {
       sans: 'Ubuntu, sans-serif',
